@@ -1,0 +1,67 @@
+# Compiled Output & TypeScript Build Info
+/dist
+/build
+*.tsbuildinfo
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Environment Variables & Secrets
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Unit & E2E Testing Coverage
+/coverage
+/.nyc_output
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs & Editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# Temporary Files & Runtime Data
+.temp/
+.tmp/
+pids/
+*.pid
+*.seed
+*.pid.lock
+.eslintcache
+
+# Diagnostic Reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
